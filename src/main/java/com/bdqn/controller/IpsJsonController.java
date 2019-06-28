@@ -14,4 +14,5 @@ public class IpsJsonController {
     public String getIpsJson(){
         return "{\"boolean\":true,\"string\":\"string\",\"list\":[1,2,3],\"int\":2}";
     }
+
 }
