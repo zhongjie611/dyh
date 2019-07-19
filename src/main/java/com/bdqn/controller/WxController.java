@@ -118,10 +118,9 @@ public class WxController extends WeixinControllerSupport {
             menuButton_31.setType(MenuType.VIEW);
             menuButton_31.setUrl(SUBDOMAINURL + "/wx/bdqnArticle/queryBdqnArticleDetail?bdqnArticleId=s1");
 
-            menuButton_32.setName("猿圈功能");
+            menuButton_32.setName("Vue功能");
             menuButton_32.setType(MenuType.VIEW);
-            menuButton_32.setUrl(SUBDOMAINURL + "/wx/bdqnArticle/queryBdqnArticleDetail?bdqnArticleId=s2");
-
+            menuButton_32.setUrl("http://chenzhongjie.top/index.html");
 
 //            menuButton_33.setName("每日工作");
 //            menuButton_33.setType(MenuType.VIEW);
