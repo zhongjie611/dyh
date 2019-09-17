@@ -8,7 +8,9 @@
        <bean id="bdqnArticleRepository" class="com.bdqn.dao.BdqnArticleRepository">
               <property name="mongoTemplate" ref="mongoTemplate"></property>
        </bean>
-
+       <bean id="epressInfoRepository" class="com.bdqn.dao.XXTExpressInfoRepository">
+              <property name="mongoTemplate" ref="mongoTemplate"></property>
+       </bean>
        <bean id="apiConfig" class="com.bdqn.fastweixin.api.config.ApiConfig">
               <constructor-arg index="0" value="wx5683eeff0c87f90c"/>
               <constructor-arg index="1" value="65545ead80942d596eb5769d6418fafb"/>
