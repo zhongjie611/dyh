@@ -6,16 +6,15 @@ import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.commons.CommonsMultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.*;
-import java.net.URLDecoder;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -31,6 +30,7 @@ public class TestController {
     public void test(){
         System.out.print("test");
     }
+
 
 
     @RequestMapping(value="/uploadFile",method= RequestMethod.POST)
@@ -70,10 +70,17 @@ public class TestController {
     IExpressInfoService expressInfoService;
 
 
-    @RequestMapping(value="/exFile",method= RequestMethod.POST)
-    @ResponseBody
-    public String uploadExcel(@RequestParam("exfile")CommonsMultipartFile exfile , HttpServletRequest request) {
 
+    @RequestMapping(value="/comExFile",method= RequestMethod.POST)
+    @ResponseBody
+    public ResponseEntity upLoadCommonXtxExcel(@RequestParam("comexfile")CommonsMultipartFile comexfile){
+
+        List<ExpressInfo> list = getExpressInfoList(comexfile,0,1,2,0,"");
+        //2.获取用户数据列表
+        expressInfoService.saveExpressInfo(list);
+        return new ResponseEntity(list, HttpStatus.OK);
+    }
+    private List<ExpressInfo> getExpressInfoList(CommonsMultipartFile exfile,int rowBegin,int orderIndex,int productIndex,int unameIndex,String type){
         //1.解析Excel
         //1.1.根据Excel文件创建工作簿
         HSSFWorkbook wb = null;
@@ -88,12 +95,12 @@ public class TestController {
         int length = sheet.getLastRowNum();
         List<ExpressInfo> list = new ArrayList();
         ExpressInfo info = null;
-        for (int rowNum = 1; rowNum<= length ;rowNum ++) {
+        for (int rowNum = rowBegin; rowNum<= length ;rowNum ++) {
             Row row = sheet.getRow(rowNum);//根据索引获取每一个行
             StringBuilder sb = new StringBuilder();
-            Cell orderNubCell = row.getCell(1);
-            Cell productCell = row.getCell(2);
-            Cell nameCell = row.getCell(4);
+            Cell orderNubCell = row.getCell(orderIndex);
+            Cell productCell = row.getCell(productIndex);
+            Cell nameCell = row.getCell(unameIndex);
             Object onStr = getCellValue(orderNubCell);
             Object productStr = getCellValue(productCell);
             Object nameStr = getCellValue(nameCell);
@@ -105,12 +112,26 @@ public class TestController {
             info.setCreateDate(new Date());
             info.setSendStates(true);
             info.setUserName((String)nameStr);
+            info.setType(type);
             list.add(info);
         }
+        System.out.println(sheet.getLastRowNum());
+        return list;
+    }
+
+    /**
+     * 圆通
+     * @param exfile
+     * @param request
+     * @return
+     */
+    @RequestMapping(value="/exFile",method= RequestMethod.POST)
+    @ResponseBody
+    public ResponseEntity uploadExcel(@RequestParam("exfile")CommonsMultipartFile exfile , HttpServletRequest request) {
+        List<ExpressInfo> list = getExpressInfoList(exfile,1,1,2,4,"YTO");
         //2.获取用户数据列表
         expressInfoService.saveExpressInfo(list);
-        System.out.println(sheet.getLastRowNum());
-        return "";
+        return new ResponseEntity(list, HttpStatus.OK);
     }
     public static Object getCellValue(Cell cell) {
         //1.获取到单元格的属性类型

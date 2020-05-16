@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+       <import resource="spring-mongo.xml"></import>
+
+       <bean id="bdqnArticleRepository" class="com.bdqn.dao.BdqnArticleRepository">
+              <property name="mongoTemplate" ref="mongoTemplate"></property>
+       </bean>
+       <bean id="epressInfoRepository" class="com.bdqn.dao.XXTExpressInfoRepository">
+              <property name="mongoTemplate" ref="mongoTemplate"></property>
+       </bean>
+       <bean id="apiConfig" class="com.bdqn.fastweixin.api.config.ApiConfig">
+              <constructor-arg index="0" value="wx5683eeff0c87f90c"/>
+              <constructor-arg index="1" value="65545ead80942d596eb5769d6418fafb"/>
+              <property name="token" value="czjdyh"></property>
+       </bean>
+       <bean id="updateAccessTokenApi" class="com.bdqn.service.UpdateAccessTokenApi" >
+              <constructor-arg index="0" ref="apiConfig"/>
+       </bean>
+       <bean id="accessTokenTimer" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+              <property name="targetObject" ref="updateAccessTokenApi" />
+              <property name="targetMethod" value="refreshToken" />
+       </bean>
+       <bean id="simpleTrigger"  class="org.springframework.scheduling.quartz.SimpleTriggerFactoryBean">
+              <property name="jobDetail" ref="accessTokenTimer" />
+              <property name="startDelay" value="10000" />
+              <property name="repeatInterval" value="7000000" />
+       </bean>
+       <bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+              <property name="triggers">
+                     <list>
+                            <ref bean="simpleTrigger" />
+                     </list>
+              </property>
+       </bean>
+</beans>

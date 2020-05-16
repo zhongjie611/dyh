@@ -1,0 +1,2100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="collect_base:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8bf077f5-38a8-43ad-90d8-370f6a9dc725" name="Default" comment="1 添加xtx快递查询功能">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bdqn/dao/ExpressTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bdqn/module/ExpressType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/miniprogram/imgs/comm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/controller/AuthController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/controller/CsdnCrawler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/controller/DzCrawler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/controller/HowToSolveItController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/controller/IpsJsonController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/controller/QuTuCrawler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/controller/TestController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/controller/ValidateController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/controller/VueApiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/controller/WangYiCrawler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/controller/WxArticleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/controller/WxController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/dao/AbstractRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/dao/BdqnArticleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/dao/XXTExpressInfoRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/BaseAPI$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/BaseAPI$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/BaseAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/CustomAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/DataCubeAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/JsAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/MediaAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/MenuAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/MessageAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/OauthAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/PageAccessAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/QrcodeAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/SystemAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/TemplateAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/UserAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/config/ApiConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/config/ApiConfig$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/config/ApiConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/entity/ArticleSummary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/entity/ArticleTotal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/entity/ArticleTotalDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/entity/BaseDataCube.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/entity/BaseModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/entity/CustomAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/entity/InterfaceSummary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/entity/InterfaceSummaryHour.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/entity/Menu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/entity/MenuButton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/entity/Model.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/entity/UpstreamMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/entity/UpstreamMsgDist.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/entity/UpstreamMsgDistMonth.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/entity/UpstreamMsgDistWeek.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/entity/UpstreamMsgHour.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/entity/UpstreamMsgMonth.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/entity/UpstreamMsgWeek.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/entity/UserCumulate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/entity/UserRead.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/entity/UserReadHour.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/entity/UserShare.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/entity/UserShareHour.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/entity/UserSummary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/enums/MediaType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/enums/MenuType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/enums/OauthScope.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/enums/QrcodeType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/enums/ResultType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/request/BaseRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/BaseResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/CreateGroupResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/DownloadMediaResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetArticleSummaryResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetArticleTotalResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetCustomAccountsResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetGroupsResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetInterfaceSummaryHourResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetInterfaceSummaryResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetJsApiTicketResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetMenuResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetPageCodeTokenResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetSignatureResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetTokenResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetUpstreamMsgDistMonthResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetUpstreamMsgDistResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetUpstreamMsgDistWeekResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetUpstreamMsgHourResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetUpstreamMsgMonthResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetUpstreamMsgResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetUpstreamMsgWeekResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetUserCumulateResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetUserInfoResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetUserReadHourResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetUserReadResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetUserShareHourResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetUserShareResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetUserSummaryResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetUsersResponse$Openid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/GetUsersResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/OauthGetTokenResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/QrcodeResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/api/response/UploadMediaResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/exception/WeixinException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/handle/EventHandle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/handle/MessageHandle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/Article.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/BaseMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/ImageMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/MusicMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/NewsMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/RespType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/TemplateData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/TemplateMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/TextMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/VideoMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/VoiceMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/aes/AesException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/aes/ByteGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/aes/PKCS7Encoder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/aes/SHA1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/aes/WXBizMsgCrypt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/aes/XMLParse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/req/BaseEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/req/BaseReq.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/req/BaseReqMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/req/EventType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/req/ImageReqMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/req/LinkReqMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/req/LocationEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/req/LocationReqMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/req/MenuEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/req/QrCodeEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/req/ReqType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/req/TextReqMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/req/VideoReqMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/req/VoiceReqMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/message/util/MessageBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/servlet/WeixinBaseControllerSupport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/servlet/WeixinControllerSupport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/servlet/WeixinServletSupport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/servlet/WeixinSupport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/util/BeanUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/util/CollectionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/util/JSONUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/util/JsApiUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/util/MessageUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/util/NetWorkCenter$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/util/NetWorkCenter$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/util/NetWorkCenter$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/util/NetWorkCenter$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/util/NetWorkCenter$RequestMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/util/NetWorkCenter$ResponseCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/util/NetWorkCenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/util/SignUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/util/StrUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/fastweixin/util/StreamUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/module/BdqnArticle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/module/ExpressInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/module/ResponseVueStL.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/module/ResponseVueStr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/module/RetInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/module/UserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/service/IBdqnArticleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/service/IExpressInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/service/UpdateAccessTokenApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/service/impl/BdqnArticleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/service/impl/ExpressInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/task/XtxExpressTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/conf/resource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring/spring-mongo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/controller/AuthController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/controller/CsdnCrawler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/controller/DzCrawler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/controller/HowToSolveItController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/controller/IpsJsonController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/controller/QuTuCrawler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/controller/TestController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/controller/ValidateController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/controller/VueApiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/controller/WangYiCrawler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/controller/WxArticleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/controller/WxController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/dao/AbstractRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/dao/BdqnArticleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/dao/XXTExpressInfoRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/BaseAPI$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/BaseAPI$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/BaseAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/CustomAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/DataCubeAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/JsAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/MediaAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/MenuAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/MessageAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/OauthAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/PageAccessAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/QrcodeAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/SystemAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/TemplateAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/UserAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/config/ApiConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/config/ApiConfig$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/config/ApiConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/entity/ArticleSummary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/entity/ArticleTotal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/entity/ArticleTotalDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/entity/BaseDataCube.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/entity/BaseModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/entity/CustomAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/entity/InterfaceSummary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/entity/InterfaceSummaryHour.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/entity/Menu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/entity/MenuButton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/entity/Model.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/entity/UpstreamMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/entity/UpstreamMsgDist.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/entity/UpstreamMsgDistMonth.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/entity/UpstreamMsgDistWeek.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/entity/UpstreamMsgHour.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/entity/UpstreamMsgMonth.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/entity/UpstreamMsgWeek.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/entity/UserCumulate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/entity/UserRead.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/entity/UserReadHour.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/entity/UserShare.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/entity/UserShareHour.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/entity/UserSummary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/enums/MediaType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/enums/MenuType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/enums/OauthScope.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/enums/QrcodeType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/enums/ResultType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/request/BaseRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/BaseResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/CreateGroupResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/DownloadMediaResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetArticleSummaryResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetArticleTotalResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetCustomAccountsResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetGroupsResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetInterfaceSummaryHourResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetInterfaceSummaryResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetJsApiTicketResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetMenuResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetPageCodeTokenResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetSignatureResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetTokenResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetUpstreamMsgDistMonthResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetUpstreamMsgDistResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetUpstreamMsgDistWeekResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetUpstreamMsgHourResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetUpstreamMsgMonthResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetUpstreamMsgResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetUpstreamMsgWeekResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetUserCumulateResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetUserInfoResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetUserReadHourResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetUserReadResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetUserShareHourResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetUserShareResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetUserSummaryResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetUsersResponse$Openid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/GetUsersResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/OauthGetTokenResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/QrcodeResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/api/response/UploadMediaResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/exception/WeixinException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/handle/EventHandle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/handle/MessageHandle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/Article.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/BaseMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/ImageMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/MusicMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/NewsMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/RespType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/TemplateData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/TemplateMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/TextMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/VideoMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/VoiceMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/aes/AesException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/aes/ByteGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/aes/PKCS7Encoder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/aes/SHA1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/aes/WXBizMsgCrypt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/aes/XMLParse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/req/BaseEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/req/BaseReq.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/req/BaseReqMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/req/EventType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/req/ImageReqMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/req/LinkReqMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/req/LocationEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/req/LocationReqMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/req/MenuEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/req/QrCodeEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/req/ReqType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/req/TextReqMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/req/VideoReqMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/req/VoiceReqMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/message/util/MessageBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/servlet/WeixinBaseControllerSupport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/servlet/WeixinControllerSupport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/servlet/WeixinServletSupport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/servlet/WeixinSupport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/util/BeanUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/util/CollectionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/util/JSONUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/util/JsApiUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/util/MessageUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/util/NetWorkCenter$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/util/NetWorkCenter$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/util/NetWorkCenter$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/util/NetWorkCenter$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/util/NetWorkCenter$RequestMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/util/NetWorkCenter$ResponseCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/util/NetWorkCenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/util/SignUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/util/StrUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/fastweixin/util/StreamUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/module/BdqnArticle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/module/ExpressInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/module/ResponseVueStL.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/module/ResponseVueStr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/module/RetInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/module/UserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/service/IBdqnArticleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/service/IExpressInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/service/UpdateAccessTokenApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/service/impl/BdqnArticleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/service/impl/ExpressInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/task/XtxExpressTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/conf/resource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/spring/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/spring/spring-mongo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/HikariCP-java6-2.3.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/aspectjweaver-1.8.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/commons-codec-1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/commons-collections4-4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/commons-compress-1.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/commons-configuration-1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/commons-io-2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/commons-lang-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/commons-math3-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/commons-net-3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/curvesapi-1.05.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/dom4j-1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/fastjson-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/httpclient-4.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/httpcore-4.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/httpmime-4.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/jackson-core-2.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/jackson-databind-2.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/jcl-over-slf4j-1.7.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/jsoup-1.8.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/mongo-java-driver-3.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/poi-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/poi-ooxml-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/poi-ooxml-schemas-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/quartz-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/servlet-api-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/slf4j-api-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/slf4j-log4j12-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/spring-aop-5.0.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/spring-aspects-5.0.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/spring-beans-5.0.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/spring-context-5.0.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/spring-context-support-5.0.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/spring-core-5.0.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/spring-data-commons-1.11.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/spring-data-mongodb-1.8.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/spring-expression-5.0.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/spring-jcl-5.0.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/spring-test-5.0.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/spring-tx-5.0.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/spring-web-5.0.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/spring-webmvc-5.0.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/utils-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/xml-apis-1.0.b2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/lib/xmlbeans-3.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/views/include/pre/include_common_css.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/views/include/pre/include_common_js.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/views/include/pre/include_common_top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/views/pre/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/views/pre/queryBdqnArticleDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/views/pre/queryBdqnArticleList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/views/pre/test/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/common/jquery-2.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/css/baoliao.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/css/news.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/css/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/css/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/frozenui/css/frozen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/frozenui/img/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/frozenui/img/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/frozenui/img/icon_tag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/frozenui/js/frozen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/frozenui/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/10225357963.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/10250290397.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/178hui-app.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/178hui-diannao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/178hui-shouji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/change_paypass_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/change_paypass_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/code.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/cxfsjhyj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/hy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-denglumima.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-dingdan .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-fanhui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-fanhuidingbu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-fanhuidingbu_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-fzst-ping.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-hui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-i.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-iconxianluyudingchenggong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-jiantou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-jiaofei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-pinglun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-qiandaotubiao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-shaixuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-shezhijiaoyimima.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-shoujibangding.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-shouye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-shuaxin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-sousuo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-tuichu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-wiappquxianguanli.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-yinxingqia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-zhanghuanquan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-zhanneixin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-zhaohuimima.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/iconfont-zhifubao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/joke.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/joke1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/js.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/loading.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/login_qq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/m-index_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/m-index_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/m-index_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/m-index_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/m-index_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/m-index_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/m-index_22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/m-index_24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/m-index_26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/m-index_27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/news.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/news_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/news_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/news_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/news_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/news_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/news_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/news_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/news_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/nothing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/qiandao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/qiandao_ok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/taobao_liucheng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/top_alpha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/u_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/u_s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/u_s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/user_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/images/user_logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/js/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/js/numformat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/layer/extend/layer.ext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/layer/skin/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/layer/skin/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/layer/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/layer/skin/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/layer/skin/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/layer/skin/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/pre/layer/skin/layer.ext.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/css/framework.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/css/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/css/owl.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/css/swipebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/1s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/1w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/2s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/2w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/3s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/3w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/4s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/4w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/5s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/5w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/6s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/6w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/fontawesome-webfont.eot#iefix&amp;v=4.1.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/fontawesome-webfont.eotv=4.1.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/fontawesome-webfont.svgv=4.1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/fontawesome-webfont.ttfv=4.1.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/fontawesome-webfont.woffv=4.1.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/logo-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/splash-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/splash-screen-ipad-landscape-retina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/splash-screen-ipad-portrait-retina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/splash-screen-ipad-portrait.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/splash-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/splash-screen@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/images/splash-screen@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/js/framework.plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/js/jqueryui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/address_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/arrow-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/arrow-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/arrow-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/arrow-up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/block_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/bookmark_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/briefcase_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/bubble_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/buy_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/calendar_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/checkbox1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/checkbox1c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/checkbox2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/checkbox2c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/checkbox3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/checkbox3c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/clipboard_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/clock_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/delete_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/diagram_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/document_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/down_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/droid@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/flag_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/folder_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/gear_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/globe_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/heart_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/help_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/home_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/info_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/ipad@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/iphone@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/key_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/label_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/left_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/letter_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/monitor_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/next1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/pencil_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/plus_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/present_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/prev1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/print_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/radio1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/radio1c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/radio2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/radio2c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/right_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/save_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/search_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/shield_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/statistics_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/status.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/stop_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/tick_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/trash_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/up_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/user_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/wallet_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/soon/ky_img/warning_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dyh.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bdqn/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bdqn/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bdqn/module/ExpressInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bdqn/module/ExpressInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-mongo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mongo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
+    <ignored path="collect_base.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="collect_base" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="134" column="5" lean-forward="true" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#6473#6474#0" expanded="true" />
+                <element signature="e#6519#6520#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/module/ExpressInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mongo.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="90" column="51" lean-forward="true" selection-start-line="90" selection-start-column="51" selection-end-line="90" selection-end-column="51" />
+              <folding>
+                <element signature="n#style#0;n#form#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>zhe</find>
+      <find>z</find>
+      <find>zhen</find>
+      <find>zheng</find>
+      <find>zheng'z</find>
+      <find>正在</find>
+      <find>正在j</find>
+      <find>正在jia</find>
+      <find>正在jia'z</find>
+      <find>正在加载</find>
+      <find>/bdqn-news</find>
+      <find>pengfu</find>
+      <find>我们</find>
+      <find>handleSubscribe</find>
+      <find>/index</find>
+      <find>collect</find>
+      <find>Hello World!</find>
+      <find>index</find>
+      <find>SUBDOMAINURL</find>
+      <find>postcomment</find>
+      <find>getdesc</find>
+      <find>华为：中国经济外部再平衡取得进展</find>
+      <find>myfile</find>
+      <find>id</find>
+      <find>task02</find>
+      <find>exFile</find>
+      <find>Form2</find>
+      <find>comexfile</find>
+      <find>logo.</find>
+      <find>serverResponse</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>echostr</replace>
+      <replace>120.79.163.96</replace>
+      <replace>subdomainUrl + &quot;</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\workspace\fast\collect_base</dir>
+      <dir>D:\workspace\fast\collect_base\src\main\java\com\bdqn\service</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/module/BdqnArticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/service/IBdqnArticleService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/service/impl/BdqnArticleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/controller/WxArticleController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pre/queryBdqnArticleList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/fastweixin/util/MessageUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/controller/ValidateController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/dao/BdqnArticleRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/dao/AbstractRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/fastweixin/util/NetWorkCenter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/fastweixin/api/config/ApiConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/fastweixin/api/BaseAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/service/UpdateAccessToken.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/service/UpdateAccessTokenApi.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/pre/include_common_top.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/controller/CsdnCrawler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/controller/WangYiCrawler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/controller/DzCrawler.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/conf/resource.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/controller/QuTuCrawler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/controller/HowToSolveItController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pre/test/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/readme.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/controller/IpsJsonController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/module/ResponseVueStL.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/module/ResponseVueStr.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/module/RetInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/controller/WxController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/module/UserInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/controller/VueApiController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/controller/AuthController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/dao/XXTExpressInfoRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/service/IExpressInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/service/impl/ExpressInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/task/XtxExpressTask.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-mongo.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/module/ExpressInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/common/miniprogram/ExpressType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/module/ExpressType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/dao/ExpressTypeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bdqn/controller/TestController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Program Files/java/apache-maven-3.3.9/apache-maven-3.3.9" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="collect_base Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="collect_base Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="1935" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="collect_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collect_base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="collect_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collect_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="collect_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collect_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="collect_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collect_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="collect_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collect_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bdqn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="collect_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collect_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bdqn" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="collect_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collect_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bdqn" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="collect_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collect_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="collect_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collect_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="collect_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collect_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="miniprogram" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="collect_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collect_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="miniprogram" type="462c0819:PsiDirectoryNode" />
+              <item name="imgs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="collect_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collect_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/resources/miniprogram/imgs" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\dyh\collect_base\src\main\webapp\resources\miniprogram\imgs" />
+      <recent name="D:\workspace\dyh\collect_base\src\main\webapp\resources\soon\images" />
+      <recent name="D:\workspace\dyh\collect_base\src\main\webapp\WEB-INF\imgs" />
+      <recent name="D:\workspace\dyh\collect_base\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bdqn.controller" />
+      <recent name="com.bdqn.module" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\dyh\collect_base\src\main\webapp\resources\miniprogram\imgs" />
+      <recent name="D:\workspace\dyh\collect_base\src\main\webapp\WEB-INF" />
+      <recent name="D:\workspace\dyh\collect_base\src\main\webapp\WEB-INF\imgs" />
+      <recent name="D:\workspace\fast\collect_base\src\main\webapp\resources" />
+      <recent name="D:\workspace\fast\collect_base\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tomcat">
+    <configuration default="true" type="AndroidRunConfigurationType">
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType">
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WangYiCrawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bdqn.controller.WangYiCrawler" />
+      <module name="collect_base" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bdqn.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="false" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoteDYH" type="Remote">
+      <module name="collect_base" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="120.79.163.96" />
+      <option name="PORT" value="8000" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8000" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.67" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk1.8.0_152\jre">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="collect_base:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/dyh" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_collect_base" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3521" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="collect_base:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.WangYiCrawler" />
+      <item itemvalue="Remote.RemoteDYH" />
+      <item itemvalue="Tomcat Server.tomcat" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WangYiCrawler" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8bf077f5-38a8-43ad-90d8-370f6a9dc725" name="Default" comment="" />
+      <created>1460424802410</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1460424802410</updated>
+      <workItem from="1460424805695" duration="169000" />
+      <workItem from="1460424980768" duration="7237000" />
+      <workItem from="1460507242918" duration="8377000" />
+      <workItem from="1517102539995" duration="27259000" />
+      <workItem from="1517230141907" duration="4308000" />
+      <workItem from="1517320466365" duration="28000" />
+      <workItem from="1518250650449" duration="4777000" />
+      <workItem from="1521255140318" duration="6164000" />
+      <workItem from="1560589566927" duration="6269000" />
+      <workItem from="1560687618003" duration="1531000" />
+      <workItem from="1560689203453" duration="3694000" />
+      <workItem from="1561467350578" duration="3824000" />
+      <workItem from="1561724354534" duration="13110000" />
+      <workItem from="1563456151439" duration="1958000" />
+      <workItem from="1563458160067" duration="12883000" />
+      <workItem from="1564614354831" duration="645000" />
+      <workItem from="1564839280739" duration="23000" />
+      <workItem from="1567687457148" duration="5333000" />
+      <workItem from="1567694099078" duration="506000" />
+      <workItem from="1568032522655" duration="5452000" />
+      <workItem from="1568640936753" duration="13639000" />
+      <workItem from="1568710516568" duration="21000" />
+      <workItem from="1568719320725" duration="1381000" />
+      <workItem from="1568770187226" duration="20000" />
+      <workItem from="1589623577097" duration="146000" />
+      <workItem from="1589623837515" duration="288000" />
+      <workItem from="1589624148177" duration="9435000" />
+    </task>
+    <task id="LOCAL-00001" summary="提交 测试 json&#10;以及 怎样做题测试">
+      <created>1561468773962</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561468773962</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1 玩一玩">
+      <created>1561471150352</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561471150352</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1 添加上传文件 显示文件功能 TestController">
+      <created>1561741411704</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561741411704</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1 添加vue 测试接口用于 vue学习是测试使用">
+      <created>1563503010428</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563503010428</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1 公众号添加vue 菜单">
+      <created>1563516070583</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563516070583</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1 添加xtx快递查询功能">
+      <created>1568720094064</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568720094065</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="138477000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Capture Tool" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Nl-Palette" order="2" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.66570604" weight="0.2707775" />
+      <window_info id="Structure" order="4" sideWeight="0.4935065" weight="0.24832214" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Web" order="6" sideWeight="0.33429396" side_tool="true" weight="0.27360514" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Palette&#9;" order="8" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3295583" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4892704" weight="0.24152543" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.87315434" weight="0.4490085" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49785408" weight="0.32909605" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.12684564" side_tool="true" weight="0.3940678" />
+      <window_info anchor="bottom" id="Application Servers" order="9" weight="0.32768363" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32956153" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.45302013" weight="0.398017" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49785408" weight="0.32909605" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32909605" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="right" id="Properties" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.24899329" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="6" weight="0.32885906" />
+      <window_info anchor="right" id="Designer" order="7" />
+      <window_info anchor="right" id="Palette" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32939914" />
+      <window_info anchor="right" id="Maven Projects" order="10" visible="true" weight="0.12863293" />
+      <window_info anchor="right" id="Maven" order="11" weight="0.211126" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Capture Tool" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Nl-Palette" order="2" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.66570604" visible="true" weight="0.2707775" />
+      <window_info id="Structure" order="4" sideWeight="0.4935065" weight="0.24832214" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Web" order="6" sideWeight="0.33429396" side_tool="true" weight="0.27360514" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Palette&#9;" order="8" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3295583" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4892704" weight="0.24152543" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.87315434" visible="true" weight="0.4490085" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49785408" weight="0.32909605" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.12684564" side_tool="true" weight="0.3940678" />
+      <window_info anchor="bottom" id="Application Servers" order="9" weight="0.32768363" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32956153" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.45302013" weight="0.398017" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49785408" weight="0.32909605" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32909605" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="right" id="Properties" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.24899329" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="6" weight="0.32885906" />
+      <window_info anchor="right" id="Designer" order="7" />
+      <window_info anchor="right" id="Palette" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32939914" />
+      <window_info anchor="right" id="Maven Projects" order="10" visible="true" weight="0.12863293" />
+      <window_info anchor="right" id="Maven" order="11" weight="0.211126" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交 测试 json&#10;以及 怎样做题测试" />
+    <MESSAGE value="1 玩一玩" />
+    <MESSAGE value="1 添加上传文件 显示文件功能 TestController" />
+    <MESSAGE value="1 添加vue 测试接口用于 vue学习是测试使用" />
+    <MESSAGE value="1 公众号添加vue 菜单" />
+    <MESSAGE value="1 添加xtx快递查询功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 添加xtx快递查询功能" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bdqn/fastweixin/api/MediaAPI.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bdqn/fastweixin/api/BaseAPI.java</url>
+          <line>125</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bdqn/controller/IpsJsonController.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bdqn/fastweixin/api/JsAPI.java</url>
+          <line>19</line>
+          <properties field="LOG" class="com.bdqn.fastweixin.api.JsAPI" />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/pre/include_common_js.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pre/queryBdqnArticleList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/pre/include_common_top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/module/ResponseVueStr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/module/ResponseVueStL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/bdqn/common/utils/1.0-SNAPSHOT/utils-1.0-SNAPSHOT.jar!/com/zxs/utils/lang/CalendarUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/bdqn/common/utils/1.0-SNAPSHOT/utils-1.0-SNAPSHOT.jar!/com/zxs/utils/io/PropCache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1662">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/bdqn/common/utils/1.0-SNAPSHOT/utils-1.0-SNAPSHOT.jar!/com/zxs/common/Page.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/bdqn/common/utils/1.0-SNAPSHOT/utils-1.0-SNAPSHOT.jar!/com/zxs/common/MailSenderInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-960">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/bdqn/common/utils/1.0-SNAPSHOT/utils-1.0-SNAPSHOT.jar!/com/zxs/common/EnumMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/bdqn/common/utils/1.0-SNAPSHOT/utils-1.0-SNAPSHOT.jar!/com/zxs/common/Constant.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/bdqn/common/utils/1.0-SNAPSHOT/utils-1.0-SNAPSHOT.jar!/com/zxs/common/BaseException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/controller/IpsJsonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/module/RetInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="e#1047#1048#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#1129#1130#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1281#1282#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.6.RELEASE/spring-web-5.0.6.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.6.RELEASE/spring-web-5.0.6.RELEASE.jar!/org/springframework/web/multipart/commons/CommonsMultipartFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/module/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/service/UpdateAccessTokenApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/module/BdqnArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/dao/AbstractRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-259">
+          <caret line="72" column="39" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/service/IBdqnArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/service/impl/BdqnArticleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/controller/WangYiCrawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/controller/VueApiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1036">
+          <caret line="91" column="36" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/java/jdk1.8.0_152/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="497" selection-start-line="497" selection-end-line="497" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/controller/CsdnCrawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1597">
+          <caret line="73" column="66" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/controller/WxController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1103">
+          <caret line="100" column="31" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/controller/WxArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/service/IExpressInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/controller/QuTuCrawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-896">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="186" column="37" selection-start-line="186" selection-start-column="37" selection-end-line="186" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pre/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1400">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/task/XtxExpressTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/controller/ValidateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/service/impl/ExpressInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="48" column="54" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.6.RELEASE/spring-web-5.0.6.RELEASE.jar!/org/springframework/http/ResponseEntity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+          <folding>
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mongo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/common/miniprogram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/common/miniprogram/ExpressType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="23" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/module/ExpressInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/dao/BdqnArticleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/dao/ExpressTypeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="34" />
+          <folding>
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/module/ExpressType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/dao/XXTExpressInfoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="17905" column="12" selection-start-line="17905" selection-start-column="12" selection-end-line="17905" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="90" column="51" lean-forward="true" selection-start-line="90" selection-start-column="51" selection-end-line="90" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#form#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="134" column="5" lean-forward="true" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6473#6474#0" expanded="true" />
+            <element signature="e#6519#6520#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>collect_base:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>collect_base</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.springframework.data:spring-data-mongodb:1.8.2.RELEASE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

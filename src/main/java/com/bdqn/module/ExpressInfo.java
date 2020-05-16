@@ -8,10 +8,19 @@ public class ExpressInfo  implements Serializable {
     private String id;
     private  String orderNumb;
     private  String userName;
+    private String type;
     private Date createDate;
     private boolean recStates;
     private boolean sendStates;
     private String product;
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
 
     public String getProduct() {
         return product;
