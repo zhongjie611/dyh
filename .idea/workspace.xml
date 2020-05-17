@@ -7,14 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bf077f5-38a8-43ad-90d8-370f6a9dc725" name="Default" comment="1 添加通用">
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/collect_base.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/dao/ExpressTypeRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bdqn/module/ExpressType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/META-INF/collect_base.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/dao/ExpressTypeRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/collect_base/WEB-INF/classes/com/bdqn/module/ExpressType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/collect_base/resources/miniprogram/imgs/comm.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bdqn/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bdqn/controller/TestController.java" afterDir="false" />
     </list>
     <ignored path="collect_base.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,12 +44,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="134" column="5" lean-forward="true" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
+            <state relative-caret-position="789">
+              <caret line="121" selection-start-line="121" selection-end-line="121" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#6473#6474#0" expanded="true" />
-                <element signature="e#6519#6520#0" expanded="true" />
+                <element signature="e#6694#6695#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/module/ExpressInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="175">
               <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -72,10 +65,6 @@
                 <element signature="e#417#418#0" expanded="true" />
                 <element signature="e#457#458#0" expanded="true" />
                 <element signature="e#489#490#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,11 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="90" column="51" lean-forward="true" selection-start-line="90" selection-start-column="51" selection-end-line="90" selection-end-column="51" />
-              <folding>
-                <element signature="n#style#0;n#form#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="2250">
+              <caret line="90" column="51" selection-start-line="90" selection-start-column="51" selection-end-line="90" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -260,7 +246,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,11 +253,47 @@
               <item name="collect_base" type="b2602c69:ProjectViewProjectNode" />
               <item name="collect_base" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="collect_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collect_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="collect_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collect_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="collect_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collect_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="collect_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collect_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bdqn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="collect_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collect_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bdqn" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -646,7 +667,8 @@
       <workItem from="1568770187226" duration="20000" />
       <workItem from="1589623577097" duration="146000" />
       <workItem from="1589623837515" duration="288000" />
-      <workItem from="1589624148177" duration="9947000" />
+      <workItem from="1589624148177" duration="10844000" />
+      <workItem from="1589719334213" duration="1439000" />
     </task>
     <task id="LOCAL-00001" summary="提交 测试 json&#10;以及 怎样做题测试">
       <created>1561468773962</created>
@@ -697,11 +719,18 @@
       <option name="project" value="LOCAL" />
       <updated>1589642190254</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1 添加通用">
+      <created>1589642487609</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589642487609</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138989000" />
+    <option name="totallyTimeSpent" value="141325000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -718,7 +747,7 @@
       <window_info id="Capture Tool" order="0" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Nl-Palette" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.66570604" visible="true" weight="0.2707775" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.66570604" visible="true" weight="0.27345845" />
       <window_info id="Structure" order="4" sideWeight="0.4935065" weight="0.24832214" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Web" order="6" sideWeight="0.33429396" side_tool="true" weight="0.27360514" />
@@ -728,11 +757,11 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3295583" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4892704" weight="0.24152543" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.87315434" visible="true" weight="0.4490085" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.8719839" visible="true" weight="0.4490085" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49785408" weight="0.32909605" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.12684564" side_tool="true" weight="0.3940678" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.12801608" side_tool="true" weight="0.4490085" />
       <window_info anchor="bottom" id="Application Servers" order="9" weight="0.32768363" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32956153" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.45302013" weight="0.398017" />
@@ -1135,55 +1164,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mongo.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/common/miniprogram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/common/miniprogram/ExpressType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="23" />
-          <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/module/ExpressInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/common/miniprogram.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/common/miniprogram/ExpressType.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/dao/BdqnArticleRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -1243,25 +1225,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="90" column="51" lean-forward="true" selection-start-line="90" selection-start-column="51" selection-end-line="90" selection-end-column="51" />
+        <state relative-caret-position="789">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
           <folding>
-            <element signature="n#style#0;n#form#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#6694#6695#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/controller/TestController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqn/module/ExpressInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="134" column="5" lean-forward="true" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
+        <state relative-caret-position="175">
+          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6473#6474#0" expanded="true" />
-            <element signature="e#6519#6520#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mongo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="90" column="51" selection-start-line="90" selection-start-column="51" selection-end-line="90" selection-end-column="51" />
         </state>
       </provider>
     </entry>

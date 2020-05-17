@@ -97,23 +97,31 @@ public class TestController {
         ExpressInfo info = null;
         for (int rowNum = rowBegin; rowNum<= length ;rowNum ++) {
             Row row = sheet.getRow(rowNum);//根据索引获取每一个行
+            if(null == row){
+                continue;
+            }
             StringBuilder sb = new StringBuilder();
-            Cell orderNubCell = row.getCell(orderIndex);
-            Cell productCell = row.getCell(productIndex);
-            Cell nameCell = row.getCell(unameIndex);
-            Object onStr = getCellValue(orderNubCell);
-            Object productStr = getCellValue(productCell);
-            Object nameStr = getCellValue(nameCell);
-            System.out.println((String)onStr);
-            System.out.println((String)nameStr);
-            info = new ExpressInfo();
-            info.setProduct((String) productStr);
-            info.setOrderNumb((String)onStr);
-            info.setCreateDate(new Date());
-            info.setSendStates(true);
-            info.setUserName((String)nameStr);
-            info.setType(type);
-            list.add(info);
+            try{
+                Cell orderNubCell = row.getCell(orderIndex);
+                Cell productCell = row.getCell(productIndex);
+                Cell nameCell = row.getCell(unameIndex);
+                Object onStr = getCellValue(orderNubCell);
+                Object productStr = getCellValue(productCell);
+                Object nameStr = getCellValue(nameCell);
+                System.out.println((String)onStr);
+                System.out.println((String)nameStr);
+                info = new ExpressInfo();
+                info.setProduct((String) productStr);
+                info.setOrderNumb((String)onStr);
+                info.setCreateDate(new Date());
+                info.setSendStates(true);
+                info.setUserName((String)nameStr);
+                info.setType(type);
+                list.add(info);
+            } catch (Exception e){
+
+            }
+
         }
         System.out.println(sheet.getLastRowNum());
         return list;
